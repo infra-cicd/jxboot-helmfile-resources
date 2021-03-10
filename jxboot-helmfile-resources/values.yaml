@@ -62,7 +62,6 @@ hook:
   ingress:
     tls:
       secretName: ""
-
 nexus:
   ingress:
     tls:
@@ -230,6 +229,13 @@ ingress:
     hook: ""
     nexus: ""
     dockerRegistry: ""
+
+  customIngressAnnotations:
+    hook:
+    bucketrepo:
+    chartmuseum:
+    nexus:
+    dockerRegistry:
 
 nexusServiceLink:
   enabled: false
