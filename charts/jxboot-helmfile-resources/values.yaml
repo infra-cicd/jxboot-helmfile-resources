@@ -109,7 +109,13 @@ ingress:
     hook: ""
     nexus: ""
     dockerRegistry: ""
-
+  # hbc specific custom ingress annotations per service
+  customIngressAnnotations:
+    hook:
+    bucketrepo:
+    chartmuseum:
+    nexus:
+    dockerRegistry:
 nexusServiceLink:
   enabled: false
 
